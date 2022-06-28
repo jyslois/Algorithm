@@ -18,6 +18,7 @@ public class AschiiCode_11654 {
 
         // String으로 입력 받아서 문자열을 잘라 문자열로 반환한다
         // int 타입 변수에 저장함으로서 문자에 대응하는 값, 아스키 코드를 저장한다
+        // 문자를 아스키 코드로 변환하려면 char을 int로 형변환하면 되는 것이다
        int input = scan.nextLine().charAt(0);
 
         System.out.println(input);
