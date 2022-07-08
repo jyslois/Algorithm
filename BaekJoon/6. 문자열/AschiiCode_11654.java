@@ -24,7 +24,7 @@ public class AschiiCode_11654 {
         System.out.println(input);
 
         // a-z : 97-122
-        // A-z : 65-90
+        // A-Z : 65-90
         // '0' = 48
 
     }

@@ -26,7 +26,7 @@ public class StudyingVocab_1157 {
         int[] alphabets = new int[26];
 
         for (int i = 0; i < word.length(); i++) {
-            // A-Z는 65부터 99까지다. A는 인덱스 0.
+            // A-Z는 65부터 90까지다. A는 인덱스 0.
             alphabets[word.charAt(i) - 65]++;
         }
 

@@ -15,12 +15,6 @@ aabbbccb는 b가 떨어져서 나타나기 때문에 그룹 단어가 아니다.
 
 출력
 첫째 줄에 그룹 단어의 개수를 출력한다.
-
-aabbbccb
-a에 b가 바뀌는 순간
-false
-또 나오면 true
-그럼 이건 true이면 그룹 단어가 아니다.
  */
 
 import java.io.*;
@@ -47,8 +41,8 @@ public class GroupWordCheck_1316 {
         br.close();
     }
 
-    public static boolean check(String word) throws IOException {
-        boolean[] check = new boolean[26];
+    public static boolean check(String word) {
+        boolean[] check = new boolean[26];  // 알파벳 26개
         // a가 97이고 0번 인덱스에 와야 하니까, 알파벳 - 97(- 'a')을 해 주어야 한다.
         // false 기본값으로 초기화돼 있다.
 
