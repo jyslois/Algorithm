@@ -17,7 +17,7 @@ k = 2(즉, 2번 이상 신고당하면 이용 정지)인 경우의 예시입니�
 
 import java.util.*;
 
-public class GettingResultOfReport_Final {
+public class GettingResultOfReport_Answer {
     public static void main(String[] args) {
         String[] id_list = {"muzi", "frodo", "apeach", "neo"};
         String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
